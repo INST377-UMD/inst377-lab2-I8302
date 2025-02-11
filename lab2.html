@@ -1,0 +1,49 @@
+<html> 
+    <head>
+        <style>
+            body {
+                background-color: rgb(107, 139, 226);
+            }
+            .contactBox {
+            width: 100%; 
+            padding: 10px; 
+            font-size: 15px; 
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            
+            }
+            .button {
+            background-color:  rgb(35, 85, 222);
+            color: rgb(255, 255, 255); 
+            margin-top: 50px;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            margin-right: 80px;
+            }
+            .button:hover {
+            background-color: rgb(18, 107, 32);
+            color: white;
+        }
+        </style>
+    </head>
+
+    <body>
+        <h1>Lab 2: Contact Form</h1>
+        <form name="contactForm" method="get" action="formCompleted.html">
+            <div class="contactBox">
+                <!-- User Name Details -->
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <br>
+                <hr>
+                <!-- Submit Button -->
+                <input type="submit" value="Submit It!" class="button">
+            </div>
+        </form>
+    </body>
+</html>
